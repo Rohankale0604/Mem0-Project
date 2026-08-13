@@ -1,0 +1,28 @@
+# Environment variables / secrets
+.env
+.env.*
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Qdrant local database
+qdrant_storage/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
