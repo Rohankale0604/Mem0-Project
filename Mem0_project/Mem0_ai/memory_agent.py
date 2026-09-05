@@ -75,14 +75,16 @@ MEM0_CONFIG = {
         },
     },
 
-    "vector_store": {
-        "provider": "qdrant",
-        "config": {
-            "collection_name": "mem0_interview_prep",
-            "embedding_model_dims": 768,
-            "path": str(QDRANT_PATH),
-        },
+   "vector_store": {
+    "provider": "qdrant",
+    "config": {
+        "collection_name": "mem0_interview_prep",
+        "embedding_model_dims": 768,
+        "url": os.getenv("QDRANT_URL"),
+        "api_key": os.getenv("QDRANT_API_KEY"),
     },
+},
+      
 }
 
 
