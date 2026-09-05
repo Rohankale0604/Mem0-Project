@@ -48,7 +48,7 @@ if not GOOGLE_API_KEY:
 # MODEL CONFIGURATION
 # ============================================================
 
-GROQ_MODEL = "llama-3.1-8b-instant"
+GROQ_MODEL = "openai/gpt-oss-20b"
 
 
 # ============================================================
