@@ -1,3 +1,4 @@
+# Qdrant Cloud connection refresh
 """
 Memory layer for the Mem0 + LangChain Interview Prep Coach.
 """
